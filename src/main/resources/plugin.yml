@@ -1,0 +1,11 @@
+name: Sklep
+version: 0.2
+main: pl.panryba.mc.shop.Plugin
+depend: [FishPerms,Hardcore,TerazPolska,Portfel,Sets]
+commands:
+  sklep:
+    description: Sprawdzenie cennika sklepu
+    usage: /<command>
+  kup:
+    description: Kupienie wybranego przedmiotu
+    usage: /<kup> <kod przedmiotu> (uzy polecenia /sklep aby zobaczyc liste przedmiotow dostepnych w sklepie)
